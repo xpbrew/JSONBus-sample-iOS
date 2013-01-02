@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, UIWebViewDelegate>
+@interface JSONBusSampleAppDelegate : UIResponder <UIApplicationDelegate, UIWebViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

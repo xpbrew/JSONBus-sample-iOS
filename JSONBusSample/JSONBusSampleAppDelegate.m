@@ -5,9 +5,9 @@
 //  Created by Brodyspark on 1/2/13.
 //
 
-#import "AppDelegate.h"
+#import "JSONBusSampleAppDelegate.h"
 
-@implementation AppDelegate
+@implementation JSONBusSampleAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

@@ -13,7 +13,7 @@
 		61B844A9169472A5008EEDD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B844A8169472A5008EEDD1 /* CoreGraphics.framework */; };
 		61B844AF169472A5008EEDD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61B844AD169472A5008EEDD1 /* InfoPlist.strings */; };
 		61B844B1169472A5008EEDD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B844B0169472A5008EEDD1 /* main.m */; };
-		61B844B5169472A5008EEDD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B844B4169472A5008EEDD1 /* AppDelegate.m */; };
+		61B844B5169472A5008EEDD1 /* JSONBusSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B844B4169472A5008EEDD1 /* JSONBusSampleAppDelegate.m */; };
 		61B844B7169472A5008EEDD1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B844B6169472A5008EEDD1 /* Default.png */; };
 		61B844B9169472A5008EEDD1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B844B8169472A5008EEDD1 /* Default@2x.png */; };
 		61B844BB169472A5008EEDD1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B844BA169472A5008EEDD1 /* Default-568h@2x.png */; };
@@ -29,8 +29,8 @@
 		61B844AE169472A5008EEDD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61B844B0169472A5008EEDD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61B844B2169472A5008EEDD1 /* JSONBusSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONBusSample-Prefix.pch"; sourceTree = "<group>"; };
-		61B844B3169472A5008EEDD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		61B844B4169472A5008EEDD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61B844B3169472A5008EEDD1 /* JSONBusSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONBusSampleAppDelegate.h; sourceTree = "<group>"; };
+		61B844B4169472A5008EEDD1 /* JSONBusSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONBusSampleAppDelegate.m; sourceTree = "<group>"; };
 		61B844B6169472A5008EEDD1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		61B844B8169472A5008EEDD1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		61B844BA169472A5008EEDD1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -81,8 +81,8 @@
 		61B844AA169472A5008EEDD1 /* JSONBusSample */ = {
 			isa = PBXGroup;
 			children = (
-				61B844B3169472A5008EEDD1 /* AppDelegate.h */,
-				61B844B4169472A5008EEDD1 /* AppDelegate.m */,
+				61B844B3169472A5008EEDD1 /* JSONBusSampleAppDelegate.h */,
+				61B844B4169472A5008EEDD1 /* JSONBusSampleAppDelegate.m */,
 				61B844AB169472A5008EEDD1 /* Supporting Files */,
 			);
 			path = JSONBusSample;
@@ -169,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61B844B1169472A5008EEDD1 /* main.m in Sources */,
-				61B844B5169472A5008EEDD1 /* AppDelegate.m in Sources */,
+				61B844B5169472A5008EEDD1 /* JSONBusSampleAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
