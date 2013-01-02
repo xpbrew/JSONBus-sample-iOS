@@ -2,8 +2,7 @@
 //  AppDelegate.m
 //  JSONBusSample
 //
-//  Created by Chris Brody on 1/2/13.
-//  Copyright (c) 2013 JSONBus. All rights reserved.
+//  Created by Brodyspark on 1/2/13.
 //
 
 #import "AppDelegate.h"
