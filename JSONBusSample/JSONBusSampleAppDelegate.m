@@ -36,6 +36,14 @@
         
         NSLog(@"JSON: %@", s1);
 
+        NSString *js = [s1 substringFromIndex:12];
+        NSLog(@"decoding js: %@", js);
+        NSData *d = [js dataUsingEncoding:NSUTF8StringEncoding];
+        NSError *err;
+        NSDictionary *j = [NSJSONSerialization JSONObjectWithData:d options:kNilOptions error:&err];
+        NSLog(@"jsonrequest: %@", j);
+        NSLog(@"jsonrequest: %@", [j objectForKey:@"a"]);
+
         [self.myview stringByEvaluatingJavaScriptFromString:@"window.testcb('{b:2}')"];
 
         return NO;

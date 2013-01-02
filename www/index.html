@@ -5,7 +5,7 @@
         function jsontest() {
             document.write("<br/>jsontest");
             var ifr = document.createElement("IFRAME");
-            ifr.setAttribute("src", "jsonrequest:{a:1}");
+            ifr.setAttribute("src", 'jsonrequest:{"a":1}');
             document.documentElement.appendChild(ifr);
             ifr.parentNode.removeChild(ifr);
             ifr = null;
